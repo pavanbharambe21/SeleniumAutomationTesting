@@ -26,5 +26,6 @@ public class SeleniumFirstProgram {
         driver.findElement(By.cssSelector("input[placeholder='Search")).sendKeys("HP");
         driver.findElement(By.cssSelector("button[class='btn btn-default btn-lg']")).click();
 
+
     }
 }
